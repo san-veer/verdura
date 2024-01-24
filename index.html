@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(202, 178, 140);
+        }
+        #dialog{
+            background-color: rgb(255,255,255);
+            height: 600px;
+            width:900px;
+            border-radius:10px;
+            margin-left: 200px;
+            margin-right: 50px;
+            margin-top:40px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        #toprow{
+            display:flex;
+        }   
+        #topmiddle{
+            color: rgb(165,170,190);
+            padding-top:10px;
+            display:flex;
+            padding-left: 120px;
+            padding-right: 100px;
+            font-family: 'Corbel';
+            font-size:0.8rem;
+            letter-spacing: 2px;
+            font-weight:bolder;
+
+        }
+        #topright{
+            color: rgb(165,170,190);
+            letter-spacing: 1px;
+            padding-top:10px;
+            display:flex;
+            font-family: 'Corbel';
+            font-size:0.8rem;
+            letter-spacing: 2px;
+            font-weight:bolder;
+        }
+        #photoline{
+            display: flex;
+        }
+        #topmiddle>p{
+            padding-left:40px;
+        }
+        #topmiddle>p:hover{
+           color: rgb(120, 120, 133);
+           cursor: pointer;
+        }
+        #topright>p:hover{
+           color: rgb(120, 120, 133);
+           cursor: pointer;
+        }
+        #topright>p{
+            padding-left:40px;
+        }
+        #photoline>div{
+            padding-top: 100px;
+            padding-left: 40px;
+            padding-right: 30px;
+        }
+        #ShopNow:hover{
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="dialog">
+        <div id="toprow">
+            <p style="font-family: 'Georgia'; padding-left: 40px; font-size: 1rem;"><b>
+                Verdura</b>
+            </p>
+            <div id="topmiddle">
+                <p>
+                    Home
+                </p>
+                <p>
+                    Catalogue
+                </p>
+                <p>
+                    Contact
+                </p>
+            </div>
+            <div id="topright">
+                <p>
+                    Search
+                </p>
+                <p>
+                    Cart(0)
+                </p>
+            </div>
+        </div>
+        <div id="photoline">
+            <div>
+                <p style="font-family: 'Georgia'; font-weight:300; font-size: 3em;">Find perfect plants<br>for your home</p>
+                <div style="border-radius: 10px; background-color: rgb(0,0,0); width: 130px; height: 40px;">
+                    <p id="ShopNow" style="color: rgb(180,210,210); font-family:'Corbel'; font-size: 0.7rem; padding-top:12px; padding-left:30px; letter-spacing: 1px; "><b>SHOP NOW</b></p>
+                </div>
+                <p style="color: rgb(80,80,90);font-family: 'Georgia';font-size: 0.9em; letter-spacing: 0.5px; margin-top: 30px;">Beautiful plants that encourage you to get creative</p>
+            </div>
+            <img src="perfect-plant.webp" style="width: 350px; border-radius: 10px; margin-top: 80px;">
+        </div>
+    </div>
+</body>
+</html>
